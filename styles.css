@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+.main-view {
+    margin-bottom: 48px;
+}
+
 .title {
     font-size: 10vw;
     font-family: 'Permanent Marker', cursive;
@@ -18,6 +22,32 @@ body {
 }
 
 a {
-    color: #1ade85;
+    color: #de1a2b;
     text-decoration: none;
+}
+
+.return {
+    margin-bottom: 45px;
+    font-size: 3vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: 00;
+}
+
+.divider {
+    height: 7px;
+    background: white;
+    width: 100%;
+    /* margin: 10px; */
+    margin-bottom: 76px;
+    margin-top: 36px;
+}
+
+.welcome {
+        max-width: 90%;
+    margin: 0 auto;
+}
+
+.copy {
+        font-family: 'Playfair Display', serif;
+    font-size: 14px;
 }
