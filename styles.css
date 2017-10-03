@@ -10,6 +10,20 @@ body {
     margin: 0;
 }
 
+@media (max-width: 360px) {
+body {
+    line-height: 1.6;
+    border-top: solid 16px #000000;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4vw;
+    padding: 70px;
+    border-left: solid 16px black;
+    color: #ffffff;
+    background: #0d0d0d;
+    margin: 0;
+}
+}
+
 .main-view {
     margin-bottom: 48px;
 }
@@ -50,4 +64,8 @@ a {
 .copy {
         font-family: 'Playfair Display', serif;
     font-size: 14px;
+}
+
+img {
+width: 100%;
 }
