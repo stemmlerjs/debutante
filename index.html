@@ -10,40 +10,24 @@
     the belle of the ball, and kids the auditorium is definitely on fire... defined by sharp grooves and razor-rainstorm guitars, this music revisits the early 80s postpunk moment without any of the usual pained nostalgia. these songs want to hurt you
     the way you hurt them.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
     <link rel="search" type="application/opensearchdescription+xml" href="/atom.xml" title="KDebutante Band">
     <script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
 
-    <style>
-        body {
-            line-height: 1.6;
-            border-top: solid 16px #000000;
-            font-family: 'Permanent Marker', cursive;
-            font-size: 4vw;
-            padding: 104px;
-            border-left: solid 16px black;
-            color: #ffffff;
-            background: #0d0d0d;
-        }
-        
-        .title {
-            font-size: 10vw;
-            font-family: 'Permanent Marker', cursive;
-            font-family: 'Playfair Display', serif;
-            font-weight: bold;
-        }
-    </style>
+    <!-- ANGULAR STUFF  -->
+    <base href="/">
+    <script type="text/javascript" src="/app.js"></script>
+    <script src="/controllers/HomeController.js"></script>
+    <script src="/controllers/TrackController.js"></script>
 </head>
 
-<body>
-    <div class="title">Debutante</div>
+<body ng-app="debutanteapp">
 
-    X Debutante by Debutante Share / Embed Wishlist Edit Delete Mind Your Own 00:00 / 01:33 Digital Album Streaming + Download Includes high-quality download in MP3, FLAC and more. Paying supporters also get unlimited streaming via the free Bandcamp app.
-    Buy Now name your price Send as Gift 1. Mind Your Own 01:33 2. Waste 04:15 3. Domain Knowledge 02:33 4. Watch Closely 04:02 5. A Man With A Plan 04:24 6. Fuck You, I'm Not Dead 04:49 about "Debutante is a departure from "Cyanide Canaries", the enduring
-    surf rock / trip hop endeavor fronted by Brantford, Ontario born Khalil Stemmler. Impressed by the golden era of post-punk from the late 70's and early 80s, if one would "Watch Closely" or rather, listen- influences can be traced back to Andy Gill's
-    stringent guitar riffs, the violent fetishism of The Birthday Party and occassional delivery of The Wolfgang Press." - Asia Ferreira "gritty textures, dangerous intimations, and a sense of caustic longing... DEBUTANTE is the belle of the ball, and
-    kids the auditorium is definitely on fire... defined by sharp grooves and razor-rainstorm guitars, this music revisits the early 80s postpunk moment without any of the usual pained nostalgia. these songs want to hurt you the way you hurt them." -
-    Caligula Jr, resident psychedelic cave monster</body>
+    <div ng-view></div>
+</body>
 
 </html>
