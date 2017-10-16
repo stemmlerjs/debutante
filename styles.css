@@ -26,6 +26,8 @@ body {
 
 .main-view {
     margin-bottom: 48px;
+    max-width: 1193px;
+    margin: 0 auto;
 }
 
 .title {
@@ -64,6 +66,8 @@ a {
 .copy {
         font-family: 'Playfair Display', serif;
     font-size: 14px;
+    max-width: 1193px;
+    margin: 0 auto;
 }
 
 img {
